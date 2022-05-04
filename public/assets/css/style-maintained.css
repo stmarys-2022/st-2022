@@ -41,8 +41,9 @@
     height: 300px;
     margin: 10px;
 }
-#course-size{
 
+#course-size{
+    position: relative;
     width:450px;
     height:600px;
 }
@@ -53,13 +54,40 @@
 }
 #marginul{
 
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .main-main{
-    justify-content: center;
+    
     gap: 50px;
     display: flex;
     flex-direction: row;
+}
+#bold-font{
+    font-weight: bold;
+}
+#home-cards-4{
+    margin-right: 10px;
+        
+    }
+#home-cards-1{
+    margin-left: 10px;
+            
+     }
+#general-info{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    position: relative;
+    color: black;
+}
+#general-info-head{
+    margin-right: 25px;
+    margin-left: 25px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+    position: relative;
 }
 @media (max-width:800px){
     .one{
@@ -80,6 +108,20 @@
     html,body{
         width: 100%;
         overflow-x: hidden;
+    }
+    .main-main{
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+        justify-content: center;
+        align-items: center;
+       
+        }
+    #container-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
   
   }
