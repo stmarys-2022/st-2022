@@ -89,6 +89,17 @@
     font-size: 20px;
     position: relative;
 }
+#logo{
+    width: 200px; 
+    height: 82px;
+}
+#text-ali{
+    text-align: center;
+}
+#user-dim{
+    width:60px;
+    height:60px;
+}
 @media (max-width:800px){
     .one{
       flex: 100%;
@@ -123,6 +134,7 @@
         justify-content: center;
         align-items: center;
     }
+
   
   }
   
