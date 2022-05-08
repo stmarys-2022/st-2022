@@ -1,7 +1,7 @@
 {
-  "name": "executive",
+  "name": "St Mary's Coaching Centre",
   "version": "1.0.0",
-  "description": "Landing, Corporate & Business Template",
+  "description": "Developed by Arun Babu",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
