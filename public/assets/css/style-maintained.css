@@ -64,10 +64,6 @@
     justify-content: center;
     align-items: center;
 
-    
- 
-
-
 
 }
 #bold-font{
@@ -115,7 +111,7 @@ position: relative;
 gap: 20px;
 justify-content: center;
 align-items: center;
-margin-top: 50px;
+margin-top: 0px;
 
 
 
@@ -152,6 +148,25 @@ margin-top: 50px;
 #branch-img{
     border-radius: 10px;
 }
+#general-intro{
+ display: flex;
+flex-direction: row;
+position: relative;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+
+}
+#msg-card{
+    color: black;
+    border-radius: 10px;
+}
+#general-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
 @media (max-width:800px){
     .one{
       flex: 100%;
@@ -204,5 +219,11 @@ position: relative;
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
+}
+#general-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 }
