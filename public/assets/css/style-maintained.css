@@ -127,7 +127,7 @@ margin-top: 0px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px rgba(192, 189, 189, 0.4);
     flex: 1;
-    height: 560px;
+    height: auto;
     color: black;
     
     
@@ -141,7 +141,7 @@ margin-top: 0px;
     border-radius: 10px;
     position: relative;
     flex: 1;
-    height: 560px;
+    height: 709px;
     color: black;
     
 }
@@ -166,7 +166,41 @@ margin-top: 50px;
     font-weight: bold;
 }
 
+.circular--portrait { 
+    position: relative;
+     width: 100px;
+      height: 100px;
+       overflow: hidden;
+        border-radius: 50%; } 
+.circular--portrait img { 
+    width: 100%;
+     height: auto; }
 
+.content-card-person{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-dir{
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+#director-image{
+ margin-left: 15px;
+margin-top: 10px;
+
+}
+.card-title-dir{
+
+margin-top: 20px;
+ font-size: 20px;
+ margin-left: 15px;
+ font-weight:bold;
+}
+.circular--portrait { position: relative; width: 100px; height: 100px; overflow: hidden; border-radius: 50%; } 
+.circular--portrait img { width: 100%; height: auto; }
 @media (max-width:800px){
     .one{
       flex: 100%;
